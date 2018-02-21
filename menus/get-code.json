@@ -1,0 +1,22 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+      "label":"CroCodeXp - Crowd-Code-Explanation",
+      "submenu":[
+        {
+          "label": "Select All code",
+          "command": "core:select-all"
+        },
+        {
+          "type":"separator"
+        },
+        {
+          "label": "Get Explanation for Code",
+          "command": "get-code:toggle"
+        }
+       ]
+     }
+   ]
+  }
+}
